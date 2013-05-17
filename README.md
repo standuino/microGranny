@@ -1,27 +1,24 @@
-
-::::MICROGRANNY_OPEN_FILES::::
-
-microGranny Information: http://www.standuino.eu/devices/instruments/microgranny/
+#microGranny
+See more information on Standuino's microGranny [project page](http://www.standuino.eu/devices/instruments/microgranny/).
 
 ##Uploading the software
 
-* to upload software of microGranny you need to download and install Arduino environment http://arduino.cc/en/Main/Software
-* if you are using FTDi usb connector to interface with Standuino you should have driver for FTDi installed  http://www.ftdichip.com/FTDrivers.htm
-* in Arduino environment select - board>Arduino UNO (this refers to the bootloader of your chip)
-* install the modified version of WaveHC library to your Arduino http://arduino.cc/en/Guide/Libraries
+* to upload software of microGranny you need to download and install [Arduino environment](http://arduino.cc/en/Main/Software)
+* if you are using FTDi usb connector to interface with Standuino you should have driver for FTDi installed. Find it [here](http://www.ftdichip.com/FTDrivers.htm)
+* install the modified version of WaveHC library to your Arduino provided in this repo here.
+  * see the [arduino website](http://arduino.cc/en/Guide/Libraries) for how to install the library
 
-* open Arduino environment and open microGranny sketch - now you should see the source code of microGranny
+* open Arduino environment and open the `microGranny.ino` file - now you should see the source code of microGranny
+* in Arduino environment select - board>Arduino UNO (this refers to the bootloader of your chip)
 * select right serial port (see Arduino website for differences between different OS)
 * click upload button and wait until the software says DONE UPLOADING
 * if there is a problem uploading check your soldering and follow troubleshooting at Arduino website
 
 * to format EEPROM memory for proper use with the device hold down all 4 big trigger buttons while turning the device ON (on microGranny the display should say "CLR" fra/frau Angelico an led ADSR / PLAY should blink several times , pause and blink several times again)
 
-
-
 ##Preparing the microSD card and samples
 
-* Of course you can use your own sounds and you can use any microSD card you want. Before you use the card it is advised to format it with the official formater to make it work faster. The original SD formater can be found here with the instructions: www.sdcard.org/downloads
+* Of course you can use your own sounds and you can use any microSD card you want. Before you use the card it is advised to format it with the official formater to make it work faster. The original SD formater can be found here with the instructions, [here](www.sdcard.org/downloads).
 * You can use any microSD card reader that shows the card in your computer as and external drive.
 * You can use the samples from the Samples folder
 
