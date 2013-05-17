@@ -178,9 +178,3 @@ void SetMIDINoteOff(unsigned char note) {
    */
 
 }
-
-
-
-
-
-

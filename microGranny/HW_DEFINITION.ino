@@ -258,15 +258,3 @@ void lightNumber(int numberToDisplay, unsigned char _digit) {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

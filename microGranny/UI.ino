@@ -320,5 +320,3 @@ boolean CompareToMemory(int _val,int _knob){ // unfreeze knobs
   else returnVal=false;
   return returnVal;
 }
-
-

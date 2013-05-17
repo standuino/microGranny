@@ -96,16 +96,3 @@ void loop() {
   RenderSample();
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

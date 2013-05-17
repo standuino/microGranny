@@ -282,21 +282,3 @@ void DisplayPGMText(unsigned char _whichText){
     for(int i=0;i<3;i++) temp[i]=pgm_read_word_near(texts+_whichText+i);
     DisplayText(temp);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
